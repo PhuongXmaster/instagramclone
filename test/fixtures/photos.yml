@@ -1,0 +1,24 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: philadelphiaeagles
+  caption: First day back and not missing a beat.
+  created_at: <%= Time.at(1447200970).to_s(:db) %>
+  likes_count: 14416
+  url: https://scontent.cdninstagram.com/hphotos-xat1/t51.2885-15/s640x640/sh0.08/e35/12145473_185595801782444_1078816381_n.jpg
+
+two:
+  username: leahremini
+  caption: Had the pleasure of sitting down with this lovely man @dr_oz. Tune in tomorrow #Troublemaker
+  created_at: <%= Time.at(1447202647).to_s(:db) %>
+  likes_count: 9150
+  url: https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s640x640/sh0.08/e35/12224600_711803745622851_417860302_n.jpg
+
+
+three:
+  username: sincerelyjules
+  caption: Champagne, flowers and Florence!! Thank you for welcoming me and my love ❤️ @thevenuereport @jkplacefirenze
+  created_at: <%= Time.at(1447197352).to_s(:db) %>
+  likes_count: 33366
+  url: https://scontent.cdninstagram.com/hphotos-xpt1/t51.2885-15/s640x640/sh0.08/e35/12224332_1072714606092956_917207318_n.jpg
+
