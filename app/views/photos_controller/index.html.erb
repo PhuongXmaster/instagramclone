@@ -1,0 +1,18 @@
+<h1>Photos</h1>
+
+<div class="row">
+  <% @photos.each do |photo| %>
+      <div class="card col-sm-8 col-sm-offset-2 col-md-6 col-sm-offset-3 col-lg-6 col-lg-offset-3">
+        <div class="card-block">
+          <h4 class="card-title"><%= photo.username %></h4>
+          <h6 class="card-subtitle text-muted"><%= photo.likes_count %> likes</h6>
+        </div>
+        <%= image_tag(photo.url, class: "card-img-top", alt: photo.username) %>
+        <div class="card-block">
+          <p class="card-text"><%= photo.caption %></p>
+          <a href="#" class="btn btn-primary">Button</a>
+        </div>
+      </div>
+  <% end %>
+</div>
+
